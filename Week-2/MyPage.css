@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    
+    background-color:rgb(31 129 201);
+    border: 1px solid black;
+    
+}
+.logo{
+    display: flex;
+    align-items: flex-start;
+}
+.logo img{
+
+    width: 50px;
+}
+.logo2 {
+    display: flex;
+    align-items: center;
+}
+.logo2 img{
+    margin: -559px;
+    width: 50px;
+}
+nav{
+    display: flex;
+    height: 46px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    height: 48px;
+    align-items: center;
+    margin: 0px 176px;
+}
+nav ul li{
+    list-style: none;
+    padding: 15px;
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+   
+}
+nav ul li a:hover{
+    color: rgb(31, 28, 28);
+    font-style: bold;
+    cursor: pointer;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 289px;
+    height: 18px;
+    border-radius: 4px;
+    margin: 0 0px 0 178px;
+}
+.btn
+{
+    padding: 1px 4px;
+    color: white;
+    background-color: rgb(31 129 201);
+    border: 2px solid white;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+
+}
+.container
+{
+    min-height: calc(100vh - 50px - 30vh);
+    background-color: white;
+
+}
+.slider
+{
+    width: 78vw;
+    margin: 1px auto 10px auto;
+}
+.slider img
+{
+    height: 200px;
+    width: 1000px;
+    border-radius: 10px;
+}
+div.movie1
+{
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+    height: 204px;
+    border: 4px outset;
+}
+div.movie1 img
+{
+    width: auto;
+    height: 165px;
+    margin: 15px 12px 0px 2px;
+}
+div.movie1 article
+{
+    height: 20px;
+    width: 221px;
+    margin: 5px 0px;
+}
+div.movie2
+{
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+    height: 204px;
+    margin: -212px 0px 0px 414px;
+    border: 4px outset;
+}
+div.movie2 img
+{
+    width: auto;
+    height: 165px;
+    margin: 15px 12px 0px 2px;
+}
+div.movie2 article
+{
+    height: 20px;
+    width: 221px;
+    margin: 5px 0px;
+}
+div.movie3
+{
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+    height: 204px;
+    margin: -211px 0px 0px 831px;
+    border: 4px outset;
+}
+
+div.movie3 img
+{
+    width: auto;
+    height: 165px;
+    margin: 15px 12px 0px 2px;
+}
+div.movie3 article
+{
+    height: 20px;
+    width: 221px;
+    margin: 5px 0px;
+}
+div.register
+{
+    display: flex;
+    justify-content: center;
+    border: 2px groove black;
+    margin: 13px 362px 18px 362px;
+    background-color: beige;
+}
+.register h2
+{
+    display: flex;
+    justify-content: center;
+}
+
+div .first input
+{
+    margin: 0px 0px 0px 4px;
+}
+div .last input
+{
+    margin: 2px 0px 2px 9px;
+}
+div .email input
+{
+   margin:  2px 0px 2px 37px;
+}
+div .dob input
+{
+    margin: 2px 0px 2px 41px;
+}
+div .gen input
+{
+    margin: 3px 0px 2px 0px;
+}
+div .lang input
+{
+    margin: 3px 0px 2px 0px;
+}
+div.about input
+{
+    margin: 2px 0px 2px 0px;
+}
+div.submit
+{
+    display: flex;
+    justify-content: center;
+    margin: 2px 2px 2px 2px;   
+}
+
+footer{
+    background-color: rgb(64, 153, 222);
+    border: 1px solid black;
+    height: 16vh;
+    list-style: none;
+
+}
+div.contact
+{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: -102px 446px 0px 0px;
+}
+div.blog
+{
+    display: flex;
+    justify-content: flex-start;
+    margin: 2px 2px 12px 34px;
+}
+.copyright
+{
+    display: flex;
+    justify-content: flex-end;
+    margin: -20px 20px 0px 20px;
+    color: white;
+}
+.contact ul{
+    list-style: none;
+    color: white;
+}
+.blog ul{
+    list-style: none;
+    color: white;
+}
+.blog ul li a{
+    color: white;
+    text-decoration: none;
+}
+.blog ul li a:hover{
+    color: rgb(31, 28, 28);
+    font-style: bold;
+    cursor: pointer;
+}
