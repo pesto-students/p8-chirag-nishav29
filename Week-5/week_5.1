@@ -1,0 +1,44 @@
+// async func
+
+async function init()
+{
+
+const res1 = await doTask1();
+console.log(res1);
+
+
+
+//async task2 using task1
+
+
+const res2 =  await doTask2(res1);
+console.log(res2);
+
+//async task3 using task2
+
+const res3 =  await doTask3(res2);
+console.log(res3);
+
+//return result 3 
+
+return res3;
+
+}
+
+function doTask1()
+{
+  console.log("doTask1");
+}
+
+function doTask2()
+{
+  console.log("doTask2");
+}
+
+function doTask3()
+{
+  console.log("doTask3");
+}
+
+console.log("check init");
+init();
